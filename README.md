@@ -40,27 +40,9 @@ Before you start, make sure you have the following prerequisites:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/3d-portfolio.git
+   git clone https://github.com/omarelf/3d-portfolio.git
 
-Install the dependencies:
 
-bash
-Copy code
-npm install
-Customization
-Content
-You can customize the portfolio content by editing the data files located in the data/ directory. Update your projects, skills, and personal information to reflect your own work and experiences.
-
-Styles
-This portfolio uses Tailwind CSS for styling. You can easily customize the styles by modifying the CSS classes in the styles/ directory. Tailwind CSS provides a utility-first approach, making it easy to create unique and visually appealing designs.
-
-Usage
-Start the development server:
-
-bash
-Copy code
-npm run dev
-Your 3D portfolio will be accessible at http://localhost:3000.
 
 Customize the portfolio to your liking, adding your own projects, skills, and personal information.
 
