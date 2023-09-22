@@ -1,3 +1,4 @@
+import { BooleanKeyframeTrack } from "three";
 import {
   mobile,
   backend,
@@ -11,6 +12,7 @@ import {
   redux,
   tailwind,
   nodejs,
+  angular,
   mongodb,
   git,
   figma,
@@ -23,6 +25,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  berexia,
+  dba,
+  monamialbert,
+  agridata,
+  upwork,
+  zr,
+  airphone
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +55,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Business Developer",
+    icon: web,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Ecommerce Hustler",
     icon: creator,
   },
 ];
@@ -112,67 +121,100 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "angular",
+    icon: angular,
+  },
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Engineer",
+    company_name: "Berexia",
+    icon: berexia,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Development of basic components.",
+      "Development of new features in different application packages.",
+      "Fix the bugs of the Inuring and Calibration part.",
+      "Performing unit tests.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tools: Angular Ngrx RxJS JWT MySQL Ng-Zorro Azure Git Agile JSPlumb Ag-Grid"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "FULLSTACK JAVASCRIPT ENGINEER",
+    company_name: "Digital Brains Agency",
+    icon: dba,
+    background: "black",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Development of basic components",
+      "Development of new features in different application packages",
+      "Fix the bugs of the Inuring and Calibration part",
+      "Performing unit tests",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tools: Angular Ngrx RxJS JWT MySQL Ng-Zorro Azure Git Agile JSPlumb Ag-Grid"
+    ],
+  },
+  { 
+    title: "Upwork Developer",
+    company_name: "Upwork",
+    icon: upwork,
+    background: "white",
+
+    iconBg: "#383E56",
+    date: "Feb 2020 - Present",
+    points: [
+      "Developing and maintaining Ecommerce Stores using React.js and Shopify technologies.",
+      "Participating in adding new features to ship high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating and contributing in Supply Chain processes.",
     ],
   },
   {
-    title: "Web Developer",
+    title: "Shopify Developer",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining Ecommerce Stores using React.js and Shopify technologies.",
+      "Participating in adding new features to ship high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating and contributing in Supply Chain processes.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "AgriData Consulting",
+    icon: agridata,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "ERP development designed exclusively for farm management.",
+      "Develop new features.",
+      "Develop basic components.",
+      "Tools: Angular NodeJS JWT MongoDB Express PrimeNg Git MySQL Agile"
+
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Omar is a true team player, always willing to collaborate with colleagues, share knowledge, and mentor junior developers.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,27 +222,27 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Omar possesses a unique combination of technical prowess and problem-solving skills. ",
+    name: "Chris Damien",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Omar optimized our website, our traffic increased by 30%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "456",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Mon Ami Albert",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage meeting with teachers, providing a convenient and efficient solution for e-learning needs.",
     tags: [
       {
         name: "react",
@@ -214,30 +256,39 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Nest",
+        color: "#ef4444",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    content_fit:'fill',
+    image: monamialbert,
+    source_code_link: "https://monamialbert.com/",
   },
   {
-    name: "Job IT",
+    name: "07zr Search Engine",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to seek for european automative purchasing by different criterias . A search engine for the 07zr platform, with the integration of Elasticsearch and Kibana.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "Node",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Elasticsearch",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
         color: "pink-text-gradient",
       },
+      {
+        name: "Kibana",
+        color: "white-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: zr,
+    source_code_link: "https://07zr.com/fr",
   },
   {
     name: "Trip Guide",
@@ -259,6 +310,31 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "E-commerce Airphons Platform ",
+    description:
+      "e-commerce application with modern design and animations, the ability to add and edit products on the go using a Sanity, all advanced cart, and checkout functionalities, and most importantly, the complete integration with Stripe for real payments.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sanity",
+        color: "white-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: airphone,
+    source_code_link: "https://github.com/omarelf/ecommerce-sanity",
   },
 ];
 

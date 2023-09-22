@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-10 h-10 object-contain -mr-2' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            mar &nbsp;
+            <span className='sm:block hidden'> | FullStack JavaScript Engineer </span>
           </p>
         </Link>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
-            alt='menu'
+            alt='menu' 
             className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
